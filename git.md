@@ -60,3 +60,5 @@ git reset HEAD <filename>
 git commit -a -m "描述信息"
 #同时移除工作区和git仓库中的文件
 git rm -f <filename>
+#移除git仓库中的文件
+git rm --cached <filename>

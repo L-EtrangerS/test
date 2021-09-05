@@ -56,3 +56,5 @@ git checkout -- <filename>
 git add .
 #移除暂存的文件
 git reset HEAD <filename>
+#跳过暂存，直接提交
+git commit -a -m "描述信息"

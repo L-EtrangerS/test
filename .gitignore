@@ -1,5 +1,8 @@
 #忽略index.css文件
 index.js
 
+#忽略git.md
+git.md
+
 #忽略test目录下所有文件
 test/

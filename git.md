@@ -58,3 +58,5 @@ git add .
 git reset HEAD <filename>
 #跳过暂存，直接提交
 git commit -a -m "描述信息"
+#同时移除工作区和git仓库中的文件
+git rm -f <filename>
